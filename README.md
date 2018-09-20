@@ -1,2 +1,2 @@
 # kafka-producer-consumer
-Basic program to implement producer consumer using Kafka
+Starting with basic program to implement producer consumer using Kafka - Java consumers and C++ producers

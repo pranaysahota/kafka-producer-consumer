@@ -22,7 +22,8 @@ public class KafkaConsumerSample {
 		kafkaProperties.put("key.deserializer", "org.apache.kafka.common.serializa-tion.StringDeserializer");
 		kafkaProperties.put("value.deserializer", "org.apache.kafka.common.serializa-tion.StringDeserializer");
 
-		Consumer<String, String> consumer = new KafkaConsumer<String, String>(kafkaProperties);
+		Consumer<String, String> consumer1 = new KafkaConsumer<String, String>(kafkaProperties);
+		Consumer<String, String> consumer2 = new KafkaConsumer<String, String>(kafkaProperties);	
 		//consumer.subscribe(Arrays.asList(topicName));
 		consumer.subscribe(Collections.singletonList(topicName));
 		System.out.println("Subscribed to topic: " + topicName);

@@ -5,7 +5,9 @@ public interface IKafkaConstants {
 	public static Integer MESSAGE_COUNT = 1000;
 	public static String CLIENT_ID = "client1";
 	public static String TOPIC_NAME = "demo_topic";
+	public static String TOPIC_NAME_JSON = "demo_topic_json";
 	public static String GROUP_ID_CONFIG = "api_group";
+	public static String GROUP_ID_CONFIG_JSON = "api_group_json";
 	public static Integer MAX_NO_MESSAGE_FOUND_COUNT = 100;
 	public static String OFFSET_RESET_LATEST = "latest";
 	public static String OFFSET_RESET_EARLIER = "earliest";

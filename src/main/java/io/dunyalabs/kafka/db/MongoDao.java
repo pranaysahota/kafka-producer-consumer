@@ -6,7 +6,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
 
-public class MongoClientDemo {
+public class MongoDao {
 	private static MongoDatabase database;
 	private static MongoClient mongo;
 	private static MongoCollection<Document> collection;
